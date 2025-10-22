@@ -18,11 +18,11 @@ void Examen::EjemploDeListado()
 }
 
 /*Punto 1
-Indicar el n˙mero de m·quina que m·s tiempo de trabajo haya registrado en el primer semestre de 2024.
-NOTA: Si hay m·s de una m·quina que cumpla esta condiciÛn, indicar la primera de ellas.
+Indicar el n√∫mero de m√°quina que m√°s tiempo de trabajo haya registrado en el primer semestre de 2024.
+NOTA: Si hay m√°s de una m√°quina que cumpla esta condici√≥n, indicar la primera de ellas.
 
 semestre del 1 al 6
-aÒo 24
+a√±o 24
 total de maquinas 15.
 
 */
@@ -50,7 +50,7 @@ void Examen::Punto1()
         int anio= reg.getFecha().getAnio();
         int mes= reg.getFecha().getMes();
 
-        // acaaa aÒo 2024 primer semestre
+        // acaaa a√±o 2024 primer semestre
         if(anio == 2024 && mes >=1  && mes <=6) {
         int maq = reg.getIDMaquina();
             float horas = reg.getTiempoEnHoras();
@@ -82,7 +82,7 @@ void Examen::Punto1()
 }
 /*
 Punto 2
-La cantidad de m·quinas distintas que gastaron m·s de 90000 en total entre todas las producciones del tipo de pieza 15 que realizaron.
+La cantidad de m√°quinas distintas que gastaron m√°s de 90000 en total entre todas las producciones del tipo de pieza 15 que realizaron.
 
  VECTOR DE 15 -> POR LA CANTIDAD DE PIEZAS
  RECORDA QUE EL ENUNCIADO DECIA COSTO EN PESOOOOS.
@@ -136,7 +136,7 @@ void Examen::Punto2(){
 }
  /*
   Punto 3
-Las m·quinas que hayan utilizado m·s materia prima en el 2025 que en el 2024.
+Las m√°quinas que hayan utilizado m√°s materia prima en el 2025 que en el 2024.
 
  diferencial materia prima del 2024 al 2025
 
@@ -179,7 +179,7 @@ void Examen::Punto3(){
         }
 
 
-    bool bandera = false;   // vemos si no se usaron maquinas en ambos aÒos
+    bool bandera = false;   // vemos si no se usaron maquinas en ambos a√±os
 
 
     for(int i=0; i < 15 ; i++){
